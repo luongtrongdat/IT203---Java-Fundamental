@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Baitap01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.print("Nhap ma sach: ");
         String bookID = scanner.nextLine();
         System.out.print("Nhap ten sach: ");
@@ -19,7 +18,6 @@ public class Baitap01 {
 
         int bookAge = 2026 - publishYear;
         String status = isAvailable ? "Con sach" : "Da muon";
-
         System.out.println("\n--- PHIEU THONG TIN SACH ---");
         System.out.println("Ten sach: " + bookName.toUpperCase());
         System.out.println("Ma sach: " + bookID);
