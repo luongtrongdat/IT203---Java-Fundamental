@@ -1,4 +1,4 @@
-package ktdg.ss10;
+package ktdg.ss11;
 
 interface IMixable {
     void mix();
@@ -65,7 +65,7 @@ class FruitJuice extends Drink implements IMixable {
     }
 }
 
-public class BTTH_SS10 {
+public class BTTH_SS11 {
     public static void main(String[] args) {
         Drink[] drinks = new Drink[3];
 
