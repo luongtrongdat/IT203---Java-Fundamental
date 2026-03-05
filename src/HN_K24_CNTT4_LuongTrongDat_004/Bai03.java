@@ -1,19 +1,13 @@
-// Sử dụng Strack
-// Viết chương trình chuyển đổi một số thập phân( nguyên không âm) sang nhị phân bằng cách sử dụng Stack
-// Yêu cầu:
-// + Sử dụng Stack<Integer> để lưu dữ liệu
-// + Phải tự viết thuật toán chuyển đổi
-// + In ra kết quả nhị phân tương ứng
-// Input       | Output
-// 10          | 1010
-// 0           | 0
-// -5          | Lỗi: Số không hợp lệ
-
 package HN_K24_CNTT4_LuongTrongDat_004;
+
+import java.util.Scanner;
 
 public class Bai03 {
     public static void main(String[] args) {
-        int decimalNumber = -44;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Nhap so nguyen: ");
+        int decimalNumber = sc.nextInt();
+        sc.close();
         String binaryResult = convertDecimalToBinary(decimalNumber);
         System.out.println("So nhi phan tuong ung: " + binaryResult);
     }
